@@ -1,0 +1,110 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    /*font: 15px/1.5 Arial, Helvetica, sans-serif; */
+    padding: 0;
+    margin: 0;
+    /* background-color: #f4f4f4; */
+    /* ----------------------------------------- */
+    width: 100%;
+    height: auto;
+    /* overflow: hidden; */
+    background-color: #c4a1a2;
+}
+
+/* Global */
+/* This "container" class is found in the "preloginRestaurant-layout.html" and "prelogin-layout.html" */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/* The class and tag "container img" is found in prelogin-layout.html in the section "Addition 1" */
+/* This is for the picture in "<img src="../static/image/room.jpg" alt="image">" */
+.container img {
+    width: 70%;
+    opacity: 1;
+}
+/* The class "text-wrapper" is found in prelogin-layout.html & preloginRestaurant-layout.html in the section "Addition 1" */
+.text-wrapper {
+    width: 100%;
+    position: relative;
+    margin-top: -40%;
+}
+/* In section "Addition 1" found in both prelogin-layout.html & preloginRestaurant-layout.html */
+.text-wrapper, #text {
+    margin-top: 10%;
+}
+/* In section "Addition 1" found in both prelogin-layout.html & preloginRestaurant-layout.html */
+.text-wrapper, #text h1 {
+    text-align: center;
+    color: #000080;
+    font-size: 55px;
+    font-family: 'lobster', cursive ;
+}
+/* In section "Addition 1" found in both prelogin-layout.html & preloginRestaurant-layout.html */
+.text-wrapper, #text p {
+    text-align: center;
+    color: #000080;
+    font-size: 20px;
+    font-family: 'lobster', cursive ;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* The id "showcase  is found in prelogin-layout.html & preloginRestaurant-layout.html */
+#showcase{
+    min-height: 400px;
+    background: url('../image/room.jpg' no-repeat 0 -400px);
+    /* background: url('../image/room.jpg'); */
+    /* position: fixed; */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* background-size: cover; */
+    /* background-position: center center; */
+    text-align: center;
+    color: #ffffff; /* #ffffff */
+}
+
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+
+/*-- The "span" tag is for creating a space between the "create, edit, & delete" buttons found in home.html --*/
+span{
+    margin-top: : 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 1rem;
+}
+
+/* Pushing the content inside <ol> tag in restaurant.html to the left by performing "padding-left" */
+/*
+<ol>
+    {% for menu in restaurant_menus %}
+    <li type="1">
+        Menu: {{ menu.menu_name }},  Cost: ${{ menu.price }},  Address: {{ menu.address}},  Phone #: {{menu.phone}}
+    </li>
+    {% endfor %}
+</ol>
+*/
+#container-restaurant ol{
+    padding-left: 1.8rem;
+}
